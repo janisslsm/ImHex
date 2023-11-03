@@ -142,7 +142,7 @@ jobs:
             toolchain_file: "dist/macOS/macos_arm_toolchain.cmake"
             needs_update: true
 
-    name: 🍎 macOS 11.0${{matrix.suffix}}
+    name: 🍎 macOS 12.0${{matrix.suffix}}
 
     steps:
     - name: 🧰 Checkout
